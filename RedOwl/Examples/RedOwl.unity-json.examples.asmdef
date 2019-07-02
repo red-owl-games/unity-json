@@ -1,0 +1,14 @@
+{
+    "name": "RedOwl.unity-json.examples",
+    "references": [
+        "RedOwl.unity-json"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
