@@ -55,3 +55,23 @@ Json compliant way which most unity Json serializers don't allow for.
 If this project interests you please get in touch as I'd like to know about your usecases and make sure
 I'm covering them.  I'd like this library to grow into a well used Json library for interacting with
 web-based Json API's so I have a few quality of life features i'd like to implement in the future.
+
+## Installation
+
+You must be using Unity >= 2018.4!
+
+In your unity project root open Packages/manifest.json
+
+Add the following line to the dependencies section
+
+```xml
+  "com.redowl.unity-json": "https://github.com/red-owl-games/unity-json.git",
+```
+
+Open Unity and the package should download automatically and you are ready to go!
+
+```cs
+using RedOwl.Engine
+
+Json data = new Json();
+```
